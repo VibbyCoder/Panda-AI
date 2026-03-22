@@ -1,0 +1,13 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore heavy AI models
+models/
+*.gguf
+
+# Ignore C++ binaries and executables
+*.exe
+*.dll
+
+# Ignore environment/secret files (good practice)
+.env
